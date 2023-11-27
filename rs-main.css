@@ -1,0 +1,48 @@
+
+/*Color Palettes
+    60% #FEF4E8;
+    30% #283E56;
+    10% #1989AC;
+    
+    Action buttons:
+    #970747*/
+    
+
+ 
+    body
+    {
+        background-color: #FEF4E8;
+
+    }
+
+    .intro 
+    {
+        background-color:#283E56;
+        color:#FEF4E8;
+        min-heigt:100vh;
+        padding: 7em;
+        margin: 5em;
+        border-radius: 2em;
+    }
+
+  h1, h2 
+  {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+    
+  }
+ 
+  h1 
+  {
+    font-size: 4em;
+  }
+
+  h2
+  {
+    font-size: 2em;
+  }
+    
+  
