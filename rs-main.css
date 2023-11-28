@@ -14,7 +14,25 @@
         background-color: #FEF4E8;
 
     }
+    .pointer_top--section_label 
+    {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding:calc(var(--200px) - 10px);
+        border-radius: 50px;
 
+    }
+
+    .pointer_top--section_label_li 
+    {
+      display: flex;
+      position: relative;
+      box-sizing: border-box;
+      text-rendering: optimizeSpeed;
+      list-style-type: none;
+      
+    }
     .intro 
     {
         background-color:#283E56;
