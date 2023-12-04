@@ -14,24 +14,25 @@
         background-color: #FEF4E8;
 
     }
-    .pointer_top--section_label 
+    .top_hdr_nav--ul
     {
         display: flex;
+        flex-flow: row, wrap;
         list-style-type: none;
         margin: 0;
-        padding:calc(var(--200px) - 10px);
         border-radius: 50px;
+        justify-content: space-around;
 
     }
 
-    .pointer_top--section_label_li 
+    .top_hdr_nav--ul_li
     {
       display: flex;
+      flex-flow: row, wrap;
       position: relative;
       box-sizing: border-box;
-      text-rendering: optimizeSpeed;
       list-style-type: none;
-      
+       
     }
     .intro 
     {
