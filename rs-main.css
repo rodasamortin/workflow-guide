@@ -62,11 +62,32 @@
   h1 
   {
     font-size: 4em;
+    
   }
 
   h2
   {
     font-size: 2em;
+    
   }
     
+  .goal 
+  {
+    display: flex;
+    flex-flow: row, wrap; 
+    text-align: center;
+    
+  }
+
+  h3.goal_1
+  {
+    font-size: 2em; 
+    margin: 40px;
+    padding: 0px 200px 0px 200px;
+    font-family: 'Homemade Apple', cursive;
+    font-color: #283E56;
+    display: flex;
+    flex-flow: row, wrap; 
+    text-align: center;
+  }
   
