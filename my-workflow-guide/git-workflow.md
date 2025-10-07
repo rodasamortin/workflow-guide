@@ -10,11 +10,11 @@ In summary, I strive for my *code* to possess three key features: *feasibility, 
 
 ***Code versions***
 
--basic: the simplest, and possibly untidiest version.
--modular: convert the code in modules for reusability and maintainability
--advanced: optional* make the code more concise
--testing:
--final: most polished version. ready to be submitted to be reviewed or merged to main.
+- basic: the simplest, and possibly untidiest version.
+- modular: convert the code in modules for reusability and maintainability
+- advanced: optional* make the code more concise
+- testing:
+- final: most polished version. ready to be submitted to be reviewed or merged to main.
 
 :tea: This structured approach keeps me focused and intentional in my coding. It helps ground me in the purpose of the project, making it easier to resist the temptation of pursuing endless "what-ifs" and "just one more feature."
 
