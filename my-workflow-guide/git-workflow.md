@@ -52,16 +52,16 @@ I categorize commit messages into several types. It's like a gist of what the co
 
 **B. Message types**
 <br/>
-	1. new_file* initiate new file, plan, feature or challenge 
-	2. feat: new feature 
-	3. bug :initial bug spotted 
-	4. bug | attempt_fix:  debugging 
-	5. fix: debugging completed
-	6. refactor: rewrite code without altering the logic, API or UI behavior 
-	7. perf:  improve performance (ex. basic code -> modular, global var -> function())
-	8. doc: update documentation or READMe. 
-	9. style: adjust spacing, font-related matters
-    10.chore: general uncategorised tasks (ex. edit .gitignore, tidy comments)
+1. new_file* initiate new file, plan, feature or challenge 
+2. feat: new feature 
+3. bug :initial bug spotted 
+4. bug | attempt_fix:  debugging 
+5. fix: debugging completed
+6. refactor: rewrite code without altering the logic, API or UI behavior 
+7. perf:  improve performance (ex. basic code -> modular, global var -> function())
+8. doc: update documentation or READMe. 
+9. style: adjust spacing, font-related matters
+10.chore: general uncategorised tasks (ex. edit .gitignore, tidy comments)
 <br/>
 
 **C. Description**
