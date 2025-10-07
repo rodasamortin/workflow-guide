@@ -18,7 +18,7 @@ In summary, I strive for my *code* to possess three key features: *feasibility, 
 
 :tea: This structured approach keeps me focused and intentional in my coding. It helps ground me in the purpose of the project, making it easier to resist the temptation of pursuing endless "what-ifs" and "just one more feature."
 
-### Git Branch
+### __Git Branch__
 
 <br/>
 Next, I will create a new <code>git branch</code> -> <code>pull-request</code> -> review <code>pull-request</code> -> <code>merge</code> changes
@@ -30,7 +30,7 @@ Submitting a <code>pull-request</code> to myself helps me to see my code in a cr
 
 <code>code_version/file-name</code>
 
-### Commit message
+###__Git Commit Message__
 
  It is the summary of every changes made. It's important that the first 3-5 words convey what the change is about. 
  <br/>
@@ -66,7 +66,7 @@ I categorize commit messages into several types. It's like a gist of what the co
 
 **C. Description**
 
-It's the summary of what happened in the code. 
+It's the summary of what happened in the code. Use imperative voice to make it sound neutral. 
 
 ### Git message format
 
