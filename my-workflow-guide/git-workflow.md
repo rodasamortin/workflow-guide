@@ -19,7 +19,7 @@ I strive for my *code* to possess three key features: *feasibility, customizabil
 - testing: unit test *(compatibility)*
 - final: most polished version. ready to be submitted to be reviewed or merged to main.*(compatibility)*
 
-:tea: This structured approach keeps me focused and intentional in my coding. It helps ground me in the purpose of the project, making it easier to resist the temptation of pursuing endless "what-ifs" and "just one more feature."
+:tea: This structured approach helps me concentrate on 1 intention at a time. It reinforces my connection to the project's purpose. Additionally, it becomes easier for me to resist the lure of chasing endless "what-ifs" and adding "just one more feature.
 
 ### __Git Branch__
 
