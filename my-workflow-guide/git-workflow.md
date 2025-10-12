@@ -1,4 +1,4 @@
-2025-10-07, NZST
+2025-10-12, NZST
 
 # Git workflow
 
@@ -6,17 +6,20 @@
 
 I begin by coding the task in its simplest form. It serves as an initial guide for transforming the code into a more reusable and maintainable structure. Finally, I evaluate how my code impacts the overall project.
 
-In summary, I strive for my *code* to possess three key features: *feasibility, customizability, and compatibility* with the codebase. My code undergoes the following versions to ensure these three qualities are achieved:
+I strive for my *code* to possess three key features: *feasibility, customizability, and compatibility* with the codebase. My code undergoes the following versions to ensure these three qualities are achieved:
 
 ***Code versions***
 
-- basic: the simplest, and possibly untidiest version.
-- modular: convert the code in modules for reusability and maintainability
-- advanced: optional* make the code more concise
-- testing:
-- final: most polished version. ready to be submitted to be reviewed or merged to main.
+- basic: the simplest, untidiest, and most dumbed down version.*(feasibility)*
+- modular: separate concerns *(customizability)*
+	_ETC: Easier To Change_
+	_SRP: Single Responsibility Principle:_ 1 change : 1 module
 
-:tea: This structured approach keeps me focused and intentional in my coding. It helps ground me in the purpose of the project, making it easier to resist the temptation of pursuing endless "what-ifs" and "just one more feature."
+- advanced: optional* make the code more concise *(customizability)*
+- testing: unit test *(compatibility)*
+- final: most polished version. ready to be submitted to be reviewed or merged to main.*(compatibility)*
+
+:tea: This structured approach helps me concentrate on 1 intention at a time. It reinforces my connection to the project's purpose. Additionally, it becomes easier for me to resist the lure of chasing endless "what-ifs" and adding "just one more feature.
 
 ### __Git Branch__
 
@@ -32,11 +35,13 @@ Submitting a <code>pull-request</code> to myself helps me to see my code in a cr
 
 ### __Git Commit Message__
 
- It is the summary of every changes made. It's important that the first 3-5 words convey what the change is about. 
+ I want to highlight the *area* where the code is, and its *purpose*. It's important to show these in the _first 3-5 words._
+
+ > Miller's Law - a person can hold up to 7 items in their working memory :wink:
  <br/>
 
-A standardized commit messages format is vital in tracking files changes and preserving the code's history
-Mainly, a commit message has these components — *code version, message type, description.* Providing a scope is also optional.
+A standardized commit messages format is vital in tracking files changes and preserving the code's history.
+Mainly, a commit message has these components — *code version, message type, purpose.* Providing a scope is also optional.
 <br/>
 
 **A. Code Version**
@@ -44,7 +49,7 @@ Mainly, a commit message has these components — *code version, message type, d
 I call it the code's stages of refinement.
 <br/>
 		<code>
-			git commit -m "<b>type</b> -> <b>(optional_scope)</b> : description"
+			git commit -m "<b>type</b> -> <b>(optional_scope)</b> : purpose"
 		</code>
 <br/>
 
@@ -72,7 +77,7 @@ It's the summary of what happened in the code. Use imperative voice to make it s
 
 <prep>
 	<code>
-		file_name | code_version | message_type -> *(optional scope)* : descriptiom
+		file_name-> *(optional scope)* | code_version | message_type  : purpose
 	</code>
 </prep>
 
