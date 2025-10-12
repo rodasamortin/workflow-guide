@@ -11,7 +11,10 @@ I strive for my *code* to possess three key features: *feasibility, customizabil
 ***Code versions***
 
 - basic: the simplest, untidiest, and most dumbed down version.*(feasibility)*
-- modular: convert the code in modules for reusability and maintainability *(customizability)*
+- modular: separate concerns *(customizability)*
+	_ETC: Easier To Change_
+	_SRP: Single Responsibility Principle:_ 1 change : 1 module
+
 - advanced: optional* make the code more concise *(customizability)*
 - testing: unit test *(compatibility)*
 - final: most polished version. ready to be submitted to be reviewed or merged to main.*(compatibility)*
