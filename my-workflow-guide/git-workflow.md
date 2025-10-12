@@ -1,4 +1,4 @@
-2025-10-07, NZST
+2025-10-12, NZST
 
 # Git workflow
 
@@ -77,7 +77,7 @@ It's the summary of what happened in the code. Use imperative voice to make it s
 
 <prep>
 	<code>
-		file_name | code_version | message_type -> *(optional scope)* : descriptiom
+		file_name-> *(optional scope)* | code_version | message_type  : purpose
 	</code>
 </prep>
 
